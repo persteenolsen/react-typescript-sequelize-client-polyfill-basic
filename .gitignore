@@ -1,0 +1,9 @@
+
+# Hide the info for database connection
+config.js
+
+license
+
+node_modules/
+
+dist/

@@ -1,0 +1,65 @@
+{
+  "name": "react-typescript-sequelize-users-client-polyfill-basic",
+  "version": "2.0.0",
+  "description": "A webpack 5 boilerplate with React",
+  "main": "index.js",
+  "author": "Per Olsen",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --config config/webpack.dev.js --progress",
+    "build": "webpack --config config/webpack.prod.js",
+    "prod": "http-server ./dist -a localhost -p 8005 -o"
+  },
+  "keywords": [
+    "webpack",
+    "webpack 5",
+    "webpack boilerplate"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.7",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "cross-env": "^7.0.2",
+    "css-loader": "^5.0.0",
+    "css-minimizer-webpack-plugin": "^1.1.5",
+    "fork-ts-checker-webpack-plugin": "^6.0.8",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^5.0.0-alpha.7",
+    "http-server": "^0.12.3",
+    "mini-css-extract-plugin": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "path": "^0.12.7",
+    "postcss-loader": "^4.0.4",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^10.0.3",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.1.3",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.0",
+    "webpack-merge": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/persteenolsen/react-typescript-sequelize-users-client-polyfill-basic"
+  },
+  "dependencies": {
+    "core-js": "^3.10.0",
+    "formik": "^2.1.4",
+    "history": "^4.10.1",
+    "prop-types": "^15.7.2",
+    "query-string": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "rxjs": "^6.5.5",
+    "whatwg-fetch": "^3.6.2",
+    "yup": "^0.28.1"
+  }
+}
