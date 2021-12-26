@@ -44,10 +44,10 @@ module.exports = {
         config: JSON.stringify({
           			
 		// NOTE: FOR PRODUCTION ON AZURE!!!
-       // apiUrl: 'https://pso-express-react-orm-users-basic.azurewebsites.net/' 
+        apiUrl: 'https://pso-express-react-orm-users-basic.azurewebsites.net/' 
 		 
 		// REAL LOCAL BACKEND - FOR TESTING
-         apiUrl:'http://localhost:443'
+        // apiUrl:'http://localhost:443'
         
 		// WITH FAKE BACKEND
 		// apiUrl:'http://localhost:4000' 

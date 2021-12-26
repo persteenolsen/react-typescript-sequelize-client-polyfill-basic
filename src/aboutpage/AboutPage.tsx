@@ -40,17 +40,17 @@ class AboutPage extends React.Component <IProps> {
 			  
 			  <h3>Description</h3>
            
-               This React / TypeScript SPA Client work together with a secure Node.js Express Web API using Sequelize ORM and JWT access tokens serving as a Role based Membership System. Some older Browsers like IE 11 are mostly supported
+               This React and TypeScript SPA Client work together with a secure Node.js Express Web API using Sequelize ORM and JWT access tokens serving as a Role based Membership System. Some older Browsers like IE 11 are mostly supported
 			   <br/><br/>
 
 			   <b>Last updated</b>
 			   <ul>
-				  <li>23-12-2021</li>
+				  <li>26-12-2021</li>
 			   </ul>
 
 			   <b>GitHub</b>
 			   <ul>
-			     <li><a href="https://github.com/persteenolsen/react-sequelize-users-client-polyfill-basic" target="_blank">The React SPA Client - The frontend</a></li>
+			     <li><a href="https://github.com/persteenolsen/react-typescript-sequelize-users-client-polyfill-basic" target="_blank">The React TypeScript SPA Client - The frontend</a></li>
 				 <li><a href="https://github.com/persteenolsen/node-express-sequelize-users-api-basic" target="_blank">The Web API - The backend</a></li>
 			   </ul>
               	
@@ -87,6 +87,8 @@ class AboutPage extends React.Component <IProps> {
 				<li>The frontend are representing the V for Views due to the MVC pattern</li>
 				<li>Surport for most used Browsers and the "good old" IE 11</li>
                 <li>React, HTML and CSS</li>
+				<li>TypeScript with React in .tsx files</li>
+				<li>JavaScript with React in .jsx files</li>
 				<li>Mainly JavaScript ES5, ES6 and ES7 but in some cases up to ES10</li>
 				<li>Formik and Yup for frontend form input validation</li>
                 <li>Traditionel Bootstrap 4 by CDN for the responsive design</li>
