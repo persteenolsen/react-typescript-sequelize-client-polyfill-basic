@@ -1,7 +1,7 @@
 {
   "name": "react-typescript-sequelize-users-client-polyfill-basic",
   "version": "2.0.0",
-  "description": "A webpack 5 boilerplate with React",
+  "description": "A webpack 5 boilerplate with React and TypeScript",
   "main": "index.js",
   "author": "Per Olsen",
   "license": "MIT",

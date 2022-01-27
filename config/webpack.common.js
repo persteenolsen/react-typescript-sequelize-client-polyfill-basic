@@ -6,7 +6,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 
-// Doing TypeScript type checking instead of TypeScript / TSC
+// Doing TypeScript type checking 
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
 
 //const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin');
@@ -44,7 +44,7 @@ module.exports = {
         config: JSON.stringify({
           			
 		// NOTE: FOR PRODUCTION ON AZURE!!!
-        apiUrl: 'https://pso-express-react-orm-users-basic.azurewebsites.net/' 
+         apiUrl: 'https://pso-express-react-orm-users-basic.azurewebsites.net/' 
 		 
 		// REAL LOCAL BACKEND - FOR TESTING
         // apiUrl:'http://localhost:443'
@@ -97,7 +97,7 @@ module.exports = {
     rules: [
      
 	  // Note: These 2 rules could likely be handled in one test: statement.
-      // However, using 2seperate statements each sttament could have different options if needed
+      // However, using 2 seperate statements each stament could have different options if needed
       
       // Use Babel to transpile JavaScript ES6+ / React files to ES5
 	   {

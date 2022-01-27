@@ -45,7 +45,7 @@ class AboutPage extends React.Component <IProps> {
 
 			   <b>Last updated</b>
 			   <ul>
-				  <li>26-12-2021</li>
+				  <li>26-01-2022</li>
 			   </ul>
 
 			   <b>GitHub</b>
@@ -57,6 +57,7 @@ class AboutPage extends React.Component <IProps> {
              
 			   <b>Main functionality of Users</b>
 			   <ul>
+			   <li>Upgraded from Node 12.16 to Node 14.17</li>
 			    <li>Users are able to register an account and after verify the email, the users will be able to login to the system</li>
 			    <li>After a successfully login the users can update own profiles</li>
 			    <li>The users can receive new passwords by the forgot password functionality by reseting their password before a given time like 24 hours</li>
