@@ -79,22 +79,41 @@ function authHeader(url) {
     }
 }
 
+
 function handleResponse(response) {
-	
-		
+			
     return response.text().then(text => {
+		
         const data = text && JSON.parse(text);
-        
+        		
         if (!response.ok) {
+			
             if ([401, 403].includes(response.status) && accountService.userValue) {
-                // auto logout if 401 Unauthorized or 403 Forbidden response returned from api
+				
+                // Auto logout if 401 Unauthorized or 403 Forbidden response returned from api
                 accountService.logout();
             }
-
-            const error = (data && data.message) || response.statusText;
+           					   
+		    var error = "Please try again, there was an error - default!";
+			error = (data && data.message) || response.statusText;
+						
+			// 29-07-23 - Testing ...
+			// Error data: {"message":"Cannot read property 'scope' of undefined"}  =>
+			// Error statusText: Internal server error 
+			
+			//alert( 'Error data: ' + JSON.stringify(data));
+			//alert( 'Error status Text: ' + response.statusText );
+			//alert( 'Error status code: ' + response.status );
+			
+			// May happen when the node app wakes up from idle mode - first time 
+            // For testing the error can be fired by stop / start the node app which will return a 500 status code !			
+			if( response.status >= 500 )
+				error = "Please try again, most likely the Web API just needs to wake up from idle mode ...";
+			
             return Promise.reject(error);
         }
 
         return data;
     });
+
 }
