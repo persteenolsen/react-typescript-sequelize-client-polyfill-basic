@@ -45,7 +45,7 @@ class AboutPage extends React.Component <IProps> {
 
 			   <b>Last updated</b>
 			   <ul>
-				  <li>22-09-2023</li>
+				  <li>13-02-2024</li>
 			   </ul>
 
 			   <b>GitHub</b>
