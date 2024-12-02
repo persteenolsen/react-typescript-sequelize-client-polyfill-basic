@@ -45,7 +45,12 @@ class AboutPage extends React.Component <IProps> {
 
 			   <b>Last updated</b>
 			   <ul>
-				  <li>13-02-2024</li>
+				  <li>02-12-2024</li>
+			   </ul>
+
+ <b>Node Version:</b>
+			   <ul>
+				  <li>14.x - Higher version will not run at GH</li>
 			   </ul>
 
 			   <b>GitHub</b>
@@ -57,7 +62,6 @@ class AboutPage extends React.Component <IProps> {
              
 			   <b>Main functionality of Users</b>
 			   <ul>
-			   <li>Upgraded from Node 12.16 to Node 14.17</li>
 			    <li>Users are able to register an account and after verify the email, the users will be able to login to the system</li>
 			    <li>After a successfully login the users can update own profiles</li>
 			    <li>The users can receive new passwords by the forgot password functionality by reseting their password before a given time like 24 hours</li>
@@ -131,7 +135,7 @@ class AboutPage extends React.Component <IProps> {
 		     <ul>
               <li>React 16.8.6 for the frontend client</li>
 			  <li>Bootstrap 4.4.1 for the responsive design of the frontend delivered by CDN</li>
-			  <li>Node.js 8.9.4 and Express 4.16.3 for the backend Web API</li>
+			  <li>Express 4.16.3 for the backend Web API</li>
 			  <li>Webpack 4.29.6 for the module bundler</li>
 			  <li>MySQL 5.7 as database</li>
              </ul>
